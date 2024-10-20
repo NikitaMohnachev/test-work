@@ -1,0 +1,70 @@
+// .icons-wrapper {
+// 	padding: 30px 0;
+// 	display: flex;
+// 	column-gap: 30px;
+// }
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+}
+
+.icon--play{
+	width: 10px;
+	height: 13px;
+	
+	stroke-width: 1.20px;
+	stroke: #fff;
+}
+
+.icon--heart {
+	width: 17px;
+	height: 15px;
+
+	fill: #fff;
+	transition: all 0.2s ease-in;
+
+	&:hover{
+		fill: rgba(255, 0, 0, 0.823);
+	}
+
+	@include mobile {
+		&.icon--swiper{
+			width: 22px;
+			height: 20px;
+		}
+	}
+
+}
+
+.icon--eye {
+	width: 17px;
+	height: 15px;
+
+	fill: #fff;
+	transition: all 0.2s ease-in;
+
+	&:hover{
+		fill: rgba(255, 187, 0, 0.87);
+	}
+
+	@include mobile {
+		&.icon--swiper{
+			width: 23px;
+			height: 16px;
+		}
+	}
+}
+
+.icon--x{
+	width: 20px;
+	height: 20px;
+	
+	stroke: #444;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+
+	&:hover{
+		stroke: rgba(255, 68, 0, 0.87);
+	}
+}
